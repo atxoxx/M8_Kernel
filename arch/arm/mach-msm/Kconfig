@@ -1968,12 +1968,6 @@ config MSM_CPU_VOLTAGE_CONTROL
 	help
 	  This enables userspace CPU Voltage Control.
 
-config ALUCARD_HOTPLUG
-	bool "Enable alucard-hotplug cpu hotplug driver"
-	default n
-	help
-	  Generic Alucard-hotplug cpu hotplug driver for ARM SOCs
-
 config MSM_DEVFREQ_CPUBW
 	bool "Devfreq device for CPU<->DDR IB/AB BW voting"
 	depends on PM_DEVFREQ
