@@ -3993,5 +3993,6 @@ CONFIG_QMI_ENCDEC=y
 #adreno idler
 CONFIG_ADRENO_IDLER=y
 
-#intelli plug
+#hotplug
 CONFIG_INTELLI_PLUG=y
+CONFIG_MSM_HOTPLUG=y
