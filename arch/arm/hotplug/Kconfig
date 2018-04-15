@@ -4,10 +4,3 @@ config INTELLI_PLUG
         help
           Generic Intelli-plug cpu hotplug driver for ARM SOCs
 
-config LAZYPLUG
-       bool "LazyPlug HotPlug, developed by arter97."
-       default y
-       help
-	    Based on IntelliPlug, this HotPlug uses a Conservative Approach
-	    towards HotPlugging. This HotPlug is Developed by arter97 and 
-Enhanced by fraps129.
